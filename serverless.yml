@@ -1,0 +1,17 @@
+service: secrets-manager-with-lambda-extensions
+
+frameworkVersion: '3'
+
+puglin: 
+  - serverless-esbuild
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  architecture: arm64
+  stage: test
+  region: eu-west-1
+custom: 
+  esbuild:
+    minify: true
+    bundle: true
