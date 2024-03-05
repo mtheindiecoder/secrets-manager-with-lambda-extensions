@@ -1,1 +1,1 @@
-# secrets-manager-with-lambda-layers
+# secrets-manager-with-lambda-extensions
